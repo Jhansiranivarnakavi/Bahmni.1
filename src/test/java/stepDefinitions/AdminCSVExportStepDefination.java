@@ -14,14 +14,14 @@ public class AdminCSVExportStepDefination {
     CSVExport csvExport = new CSVExport(DriverManager.getDriver());
 
     @Then("User select the consept name as {string}")
-    public void user_select_the_consept_name_as(String string) {
-        csvExport.conceptText();
+    public void user_select_the_consept_name_as(String concept) throws InterruptedException {
+        csvExport.conceptText(concept);
 
     }
 
     @Then("User click on the {string}")
-    public void user_click_on_the(String string) {
-        csvExport.Export();
+    public void user_click_on_the(String Exportbutton) throws InterruptedException {
+        csvExport.Export(Exportbutton);
     }
 
     @Then("check under download folder if file is present or not")

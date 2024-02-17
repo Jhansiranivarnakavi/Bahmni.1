@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import java.io.File;
@@ -32,12 +33,15 @@ public class CSVExport {
         driver.findElement(csvExportBtn).click();
     }
 
-    public void conceptText() {
-        driver.findElement(conceptText);
+    public void conceptText(String concept) throws InterruptedException {
+       // driver.findElement(conceptText).sendKeys(concept);
+        Select con= new Select();
+        Thread.sleep(3000);
     }
 
-    public void Export() {
+    public void Export(String Exportbutton) throws InterruptedException {
         driver.findElement(ExportBtn).click();
+        Thread.sleep(3000);
     }
 
 
