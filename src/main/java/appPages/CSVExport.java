@@ -41,7 +41,7 @@ public class CSVExport {
 
     public void Export(String Exportbutton) throws InterruptedException {
         driver.findElement(ExportBtn).click();
-        Thread.sleep(3000);
+
     }
 
 
