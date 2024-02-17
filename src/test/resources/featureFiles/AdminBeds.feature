@@ -13,7 +13,7 @@ Feature: To validate the Admin module
     Then user select the "General ward room1"
     And user select the " Add bed "
     And user select the bed "304-c" and bed "deluxe" and click on the save button
-    Then user should able to see the bed allocation
+    Then user should able to see the bed allocation.
 
 
 

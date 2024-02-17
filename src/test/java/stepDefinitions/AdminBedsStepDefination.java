@@ -24,7 +24,7 @@ public class AdminBedsStepDefination {
     }
     @Then("user should able to see the bed allocation")
     public void user_should_able_to_see_the_bed_allocation() {
-
+        .
     }
 
 }

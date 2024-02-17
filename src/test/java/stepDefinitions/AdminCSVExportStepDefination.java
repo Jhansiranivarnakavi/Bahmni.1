@@ -15,7 +15,7 @@ public class AdminCSVExportStepDefination {
 
     @Then("User select the consept name as {string}")
     public void user_select_the_consept_name_as(String concept) throws InterruptedException {
-        csvExport.conceptText(concept);
+        csvExport.conceptText(concept);.
 
     }
 

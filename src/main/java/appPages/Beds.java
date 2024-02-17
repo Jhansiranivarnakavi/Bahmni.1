@@ -29,7 +29,7 @@ public void addbed(){driver.findElement(Addbed);}
     public void bedallocation(){
     driver.findElement(BedNumber);
     driver.findElement(BedType);
-    driver.findElement(Savebutton).click();
+    driver.findElement(Savebutton).click();.
     }
 
 
